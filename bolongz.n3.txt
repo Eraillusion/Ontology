@@ -1,0 +1,16 @@
+# foaf personal profile
+# see: http://xmlns.com/foaf/spec/
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# use your Lyle login as a reference to you
+:bolongz rdf:type foaf:Person .
+:bolongz foaf:name "Bolong Zhang" .
+:bolongz foaf:familyName "Zhang" .
+:bolongz foaf:givenName "Bolong" .
+:bolongz foaf:nick "Zham" .
+:bolongz foaf:interest "snooker" .
+:bolongz foaf:title "Mr" .
+:bolongz foaf:age "24" .
